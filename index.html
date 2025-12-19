@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body id="body">
+    <div id="header">
+        <div id="headerLogo">[御宝轩] <br> [YuBaoXuan]</div>
+        <div id="contact">
+            <div id="phone">热线</div>
+            <div id="aboutUs">关于我们</div>
+            <div id="contactUs">联系</div>
+        </div>
+    </div>
+
+    <div id="navBar">
+        <ul id="main" class="navBarItems">主页</ul>
+        <ul id="gallery" class="navBarItems">相册</ul>
+        <ul id="intro" class="navBarItems">古董介绍</ul>
+        <ul id="contact" class="navBarItems">联系</ul>
+    </div>
+
+    <div id="heroSectionContainer">
+        
+        <button id="nextImage" class="directionButtons" onclick="buttonFlipPage(0)">></button>
+        <button id="previousImage" class="directionButtons" onclick="buttonFlipPage(0)"><</button>
+        <div id="scrollContainer">
+             <div id="imageContainer1" class="imageContainers">
+                <div id="heroText1" class="heroTexts"> 
+                    <label id="heroTextWhole">每一件 <label class="changeColorHero">古董</label> <br> <label>都是</label><br> <label class="changeColorHero">时间雕刻</label><label>的</label><br> <label class="changeColorHero">艺术品</label> </a>
+                </div>
+            </div>
+            <div id="imageContainer2" class="imageContainers">
+                <div id="heroText1" class="heroTexts"> 
+                    <label id="heroTextWhole">每一件 <label class="changeColorHero">古董</label> <br> <label>都是</label><br> <label class="changeColorHero">时间雕刻</label><label>的</label><br> <label class="changeColorHero">艺术品</label> </a>
+                </div>
+            </div>
+             <div id="imageContainer3" class="imageContainers">
+                <div id="heroText1" class="heroTexts"> 
+                    <label id="heroTextWhole">每一件 <label class="changeColorHero">古董</label> <br> <label>都是</label><br> <label class="changeColorHero">时间雕刻</label><label>的</label><br> <label class="changeColorHero">艺术品</label> </a>
+                </div>
+            </div>
+
+        </div>
+       
+
+        <div id="pageSelectionContainer">
+            <input type="radio" id="pageSelector1" class="pageSelector" name="hero" value="page1" checked="check">
+            <input type="radio" id="pageSelector2" class="pageSelector" name="hero" value="page1">
+            <input type="radio" id="pageSelector3" class="pageSelector" name="hero" value="page1">
+
+            <label for="pageSelector1" class="checkLabel" id="checkLabel1" onclick="setPosition(0)"></label>
+            <label for="pageSelector2" class="checkLabel" id="checkLabel2" onclick="setPosition(1)"></label>
+            <label for="pageSelector3" class="checkLabel" id="checkLabel3" onclick="setPosition(2)"></label>
+        </div> 
+    </div>
+
+    <div id="whoWeAre">
+        <div id="whoWeAreTitle">
+            关于我们
+        </div>
+        <div id="whoWeAreContent">
+            
+            <div id="whoWeAreSubtitle"> 古董店：穿越时光的秘境</div>
+            <div id="whoWeAreMain">古董店不仅是收藏家的宝库，更是游客与文化爱好者的理想去处。走进其中，你会发现每一件物品都像是一段历史的缩影：精美的瓷器、古老的书籍、手工雕刻的家具，甚至一枚旧怀表，都承载着独特的故事与情感。</div>
+            <div id="getMoreInfoButton">了解更多</div>
+        </div>
+    </div>
+
+    <div id="separator1" class="separators"></div>
+    
+    <div id="productBackground"></div>
+    <div id="product">
+        <div id="productTitle">我们的产品</div>
+
+        <div id="productContainer">
+            <div id="product1" class="products">陶瓷古董</div>
+            <div id="product2" class="products">玉器古董</div>
+            <div id="product3" class="products">金属器</div>
+            <div id="product4" class="products">家具</div>
+            <div id="product5" class="products">文房四宝</div>
+            <div id="product6" class="products">古籍</div>
+            <div id="product7" class="products">佛像</div>
+
+        
+        </div>
+
+
+    </div>
+
+    <div id="separator2" class="separators"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
