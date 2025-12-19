@@ -52,7 +52,6 @@ document.addEventListener("scroll",(ev)=>{
     })
 
     header.style.opacity = `1-${window.scrollY/heroSectionContainer.offsetTop/100}`;
-    header.style.backgroundColor = "green";
 })
 
 getMoreInfoButton.addEventListener("mousemove", (ev)=>{
